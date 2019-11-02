@@ -22,6 +22,7 @@ ax.set_xticklabels(('G1', 'G2', 'G3', 'G4', 'G5'))
 ax.legend()
 
 
+
 def autolabel(rects, xpos='center'):
     """
     Attach a text label above each bar in *rects*, displaying its height.
@@ -48,3 +49,4 @@ autolabel(rects2, "right")
 fig.tight_layout()
 
 plt.show()
+print(f'hello')
